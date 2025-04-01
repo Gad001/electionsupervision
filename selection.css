@@ -1,0 +1,83 @@
+body{
+   background-color: rgb(231, 228, 223);
+}
+
+.lga form{
+    justify-items: center;
+    color: maroon;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 200px;
+    
+    /*background-color: maroon;*/
+}
+
+.lga form select{
+    color: maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid wheat;
+}
+
+.ward form{
+    justify-items: center;
+    color: maroon;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.ward form select{
+    color: maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid wheat;
+}
+
+.pulling-unit form{
+    justify-items: center;
+    color: maroon;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.pulling-unit select{
+    color: maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid wheat;
+}
+
+.btn button{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 640px;
+    padding: 0px 20px 0px 20px;
+    margin-top: 10px;
+    background-color: white;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.btn button:hover{
+    background-color: wheat;
+    color: maroon;
+
+}
+
+.btn button a{
+    text-decoration: none;
+    color: maroon;
+    font-family: 'Lucida Sans';
+}
+
+body{
+    justify-content: center;
+}

@@ -1,0 +1,52 @@
+body{
+    padding: 0%;
+    justify-items: center;
+    /*align-items: center;*/
+    font-family: 'Franklin Gothic Medium';
+}
+
+.sentences{
+    margin-top: 70px;
+}
+
+.sentences p{
+    font-size: 20pt;
+    font-style: oblique;
+    color: maroon;
+    margin-left: 70px;
+}
+
+.sentences h2{
+    font-size: 15pt;
+    font-style: italic;
+}
+
+.data form {
+    font-style: italic;
+    font-weight: bold;
+    align-items: inherit;
+    justify-content: inherit;
+    justify-items: inherit;
+    display: inline-block;
+    padding: 10px;
+}
+
+.data form input{
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+    border: 3px solid maroon;
+    display: flex;
+}
+
+
+.image{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image form input{
+    padding: 10px;
+    margin: 5px 10px 0px 0px;
+    border: 3px solid maroon;
+    display: flex;
+}

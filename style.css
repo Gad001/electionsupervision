@@ -1,0 +1,59 @@
+body{
+/*background-image: url(img1.jpg);*/
+background-size: cover;
+background-repeat: no-repeat;
+position: center;
+padding: 0%;
+justify-content: center;
+}
+
+.login{
+    justify-content: center;
+    justify-items: center;
+}
+
+.login input{
+    border-top:  none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid maroon;
+    padding: 15px;
+}
+
+.login p{
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.login button{
+    background-color: maroon;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    
+}
+
+.login button a{
+    color: whitesmoke;
+    display: flex;
+    
+}
+
+.first-heading{
+    justify-content: center;
+    justify-items: center;
+    margin-top: 170px;
+
+}
+
+.first-heading h1{
+    font-size: 30pt;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: maroon;
+}
+

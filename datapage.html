@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Submission Page</title>
+        <link rel="stylesheet" href="datapage.css">
+    </head>
+    <body>
+        <div class="sentences">
+            
+            <h2>Ensure You Upload Data Page Pictures From The Pulling Unit</h2>
+        </div>
+        
+        <div class="data">
+            <form>
+                <p>Insert The Number Of Votes For Each Party</p>
+                <label for ="party1">PDP</label>
+                <input type="number" id="PDP" name="PDP" required>
+                <label for ="party2">Labour Party</label>
+                <input type="number" id="LP" name="LabourParty" required>
+                <label for ="party3">SDP</label>
+                <input type="number" id="SDP" name="SDP" required>
+                <label for ="party4">APC</label>
+                <input type="number" id="APC" name="APC" required>
+            </form>
+        </div>
+
+        <div class="image">
+            <form action ="upload.php" method="post" enctype="multipart/form-data">
+                <p>Upload Image Here</p>
+                <input type="file" name="image" id="image" accept="image/*" required>
+                <input type="submit" value="upload image" name="submit">
+            </form>
+        </div>
+    </body>
+</html>
